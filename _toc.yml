@@ -1,0 +1,18 @@
+# Table of contents
+# Learn more at https://jupyterbook.org/customize/toc.html
+
+format: jb-book
+root: intro
+chapters:
+- file: intro-geo-data-sci
+- file: intro-xarray
+- file: cloud-native-data
+- file: geo-ds-reads 
+- file: JNBooks/XarrayExample1.ipynb
+
+# file: notebooks.ipynb
+# file: reference.bib
+
+# Notebooks/XarrayZarrExample.ipynb
+# Notebooks/CloudNativeDataExamples.ipynb
+# Notebooks/IntroCOPC_LIDARPointCloud.ipynb
