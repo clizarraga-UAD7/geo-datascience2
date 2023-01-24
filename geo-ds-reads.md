@@ -13,6 +13,7 @@ Applications
 - [Project Pythia: Resources](https://projectpythia.org/resource-gallery.html)
 - [STAC - SpatioTemporal Assets Catalogs](https://stacspec.org/en). The SpatioTemporal Asset Catalog (STAC) specification provides a common structure for describing and cataloging spatiotemporal assets.
 - [STAC Index](https://www.stacindex.org/). Repository for STAC Catalogs, Collections, APIs, Software and Tools.
+- [Remote sensing datasets](https://github.com/satellite-image-deep-learning/remote-sensing-datasets)
 
 
 
