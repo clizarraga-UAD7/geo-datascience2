@@ -5,6 +5,7 @@ Image credit: Wikimedia Commons
 
 ***
 
+
 ## Introduction
 
 [**Earth science or geoscience**](https://en.wikipedia.org/wiki/Earth_science) includes all fields of natural science related to the planet Earth. This is a branch of science dealing with the physical, chemical, and biological complex constitutions and synergistic linkages. Earth science encompasses four main branches of study the [biosphere](https://en.wikipedia.org/wiki/Biosphere), the [hydrosphere](https://en.wikipedia.org/wiki/Hydrosphere), the  [atmosphere](https://en.wikipedia.org/wiki/Atmosphere), and the [lithosphere](https://en.wikipedia.org/wiki/Lithosphere), each of which is further broken down into more specialized fields.
