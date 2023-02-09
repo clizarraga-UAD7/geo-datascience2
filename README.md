@@ -16,7 +16,7 @@
  * [Introduction to COPC and LIDAR Point Cloud](https://github.com/clizarraga-UAD7/Notebooks/blob/main/IntroCOPC_LIDARPointCloud.ipynb) (DRAFT)
  
  ## Presentations
- * [Data driven decissions in Environmental and Earth Sciences](https://docs.google.com/presentation/d/1iEqEn1BF6Wb9GwYBOXfVKiXJqjHSUGhLvRH9m6kqQQg/edit?usp=sharing)
+ * [Data driven decisions in Environmental and Earth Sciences](https://docs.google.com/presentation/d/1iEqEn1BF6Wb9GwYBOXfVKiXJqjHSUGhLvRH9m6kqQQg/edit?usp=sharing)
  
 ***
 
