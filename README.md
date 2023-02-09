@@ -1,6 +1,6 @@
 # geo-datascience
 
- Data Science Tools and Methods in Earth Sciences Notes
+ ## Data Science Tools and Methods in Earth Sciences Notes
  
  <img src="https://images.unsplash.com/photo-1588252090896-fc811303a232?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1548&q=80" width=800>
  
@@ -8,6 +8,12 @@
  * [List of General Geo Data Science Applications](https://github.com/clizarraga-UAD7/geo-datascience2/blob/main/geo-ds-reads.md)
  * [Introduction to Xarray](https://github.com/clizarraga-UAD7/geo-datascience2/blob/main/intro-xarray.md)
  * [Cloud Native Data in Geosciences](https://github.com/clizarraga-UAD7/geo-datascience2/blob/main/cloud-native-data.md)
+ 
+ ## Notebook examples
+ 
+ * [Using Cloud Optimized GeoTIFF Files (COG) Examples](https://github.com/clizarraga-UAD7/Notebooks/blob/main/CloudNativeDataExamples1.ipynb)
+ * [Xarray & Zarr Example](https://github.com/clizarraga-UAD7/Notebooks/blob/main/XarrayZarrExample1.ipynb)
+ * [Introduction to COPC and LIDAR Point Cloud](https://github.com/clizarraga-UAD7/Notebooks/blob/main/IntroCOPC_LIDARPointCloud.ipynb) (DRAFT)
  
 ***
 
