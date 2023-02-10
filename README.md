@@ -1,6 +1,6 @@
 # geo-datascience
 
- ## Data Science Tools and Methods in Earth Sciences Notes
+ ## Data Science Tools and Methods in Earth Sciences
  
  <img src="https://images.unsplash.com/photo-1588252090896-fc811303a232?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1548&q=80" width=800>
  
@@ -21,6 +21,7 @@
  ## More resources
  * [UA Data Science Workshops](https://github.com/clizarraga-UAD7/Workshops/wiki)
  * [UA Data Science Institute Events Calendar](https://datascience.arizona.edu/calendar)
+ * [Digital Learning Resources Library](https://github.com/ua-data7/LearningResources/wiki). Data Science Institute. The University of Arizona.
  
 ***
 
