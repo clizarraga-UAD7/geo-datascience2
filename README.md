@@ -9,7 +9,7 @@
  * [Introduction to Xarray](https://github.com/clizarraga-UAD7/geo-datascience2/blob/main/intro-xarray.md)
  * [Cloud Native Data in Geosciences](https://github.com/clizarraga-UAD7/geo-datascience2/blob/main/cloud-native-data.md)
  
- ## Notebook examples
+ ## Jupyter Notebook examples
  
  * [Using Cloud Optimized GeoTIFF Files (COG) Examples](https://github.com/clizarraga-UAD7/Notebooks/blob/main/CloudNativeDataExamples1.ipynb)
  * [Xarray & Zarr Example](https://github.com/clizarraga-UAD7/Notebooks/blob/main/XarrayZarrExample1.ipynb)
@@ -17,6 +17,10 @@
  
  ## Presentations
  * [Data driven decisions in Environmental and Earth Sciences](https://docs.google.com/presentation/d/1iEqEn1BF6Wb9GwYBOXfVKiXJqjHSUGhLvRH9m6kqQQg/edit?usp=sharing)
+ 
+ ## More resources
+ * [UA Data Science Workshops](https://github.com/clizarraga-UAD7/Workshops/wiki)
+ * [UA Data Science Institute Events Calendar](https://datascience.arizona.edu/calendar)
  
 ***
 
