@@ -16,6 +16,9 @@ Applications
 - [Remote sensing datasets](https://github.com/satellite-image-deep-learning/remote-sensing-datasets)
 
 
+Medium articles
+
+- [How to Learn Geospatial Data Science in 2023](https://towardsdatascience.com/how-to-learn-geospatial-data-science-in-2023-441d8386284e). Mauricio Cordeiro.
 
 Other application examples:
 
