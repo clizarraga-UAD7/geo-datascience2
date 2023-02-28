@@ -1,6 +1,6 @@
 ## List of general Geo-Data Science Applications
 
-A collection of online resources
+A collection of available online resources 
 
 
 ### Applications
