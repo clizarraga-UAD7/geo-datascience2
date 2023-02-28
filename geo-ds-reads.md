@@ -1,4 +1,4 @@
-## List of general Geo-Data Science Applications
+q## List of general Geo-Data Science Applications
 
 A collection of available online resources 
 
