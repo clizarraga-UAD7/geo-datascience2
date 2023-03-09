@@ -1,6 +1,8 @@
 # Book settings
 # Learn more at https://jupyterbook.org/customize/config.html
 
+theme: minima
+
 title: Data Science in Geosciences
 author: Carlos Lizárraga <br> Data Science Institute <br> University of Arizona<br>
 logo: logo.png
