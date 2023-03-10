@@ -361,7 +361,7 @@ ds.attrs
 
  ```
 
-:memo: **[Please see Jupyter Notebook Xarray Example](JNBooks/XarrayExample1.ipynb)**
+:memo: **[Please see Jupyter Notebook Xarray Example](https://github.com/clizarraga-UAD7/Notebooks/blob/main/XarrayZarrExample1.ipynb)**
 
 
 ### Xarray installation and dependencies.
