@@ -10,7 +10,7 @@ Image credit: Wikimedia Commons
 
 [**Earth science or geoscience**](https://en.wikipedia.org/wiki/Earth_science) includes all fields of natural science related to the planet Earth. This is a branch of science dealing with the physical, chemical, and biological complex constitutions and synergistic linkages. Earth science encompasses four main branches of study the [biosphere](https://en.wikipedia.org/wiki/Biosphere), the [hydrosphere](https://en.wikipedia.org/wiki/Hydrosphere), the  [atmosphere](https://en.wikipedia.org/wiki/Atmosphere), and the [lithosphere](https://en.wikipedia.org/wiki/Lithosphere), each of which is further broken down into more specialized fields.
 
-[Python](https://www.python.org) is a widely used, open-source programming language. In Earth science, scientific programming languages like Python, help you speed up and automate lenghty tasks like selecting and downloading large datasets or performing repetitive calculations that you might otherwise have to do manually.
+[Python](https://www.python.org) is a widely used, open-source programming language. In Earth science, scientific programming languages like Python, help you speed up and automate lengthy tasks like selecting and downloading large datasets or performing repetitive calculations that you might otherwise have to do manually.
 
 Depending on the type of scientific application sensor or measuring device, geoscience associated data is stored in many [formats and data types](https://gisgeography.com/gis-formats/). We need to be aware of this, so we can plan how to read data into our analysis environment.
 

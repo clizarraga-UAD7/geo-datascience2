@@ -4,6 +4,23 @@
  
  <img src="https://images.unsplash.com/photo-1588252090896-fc811303a232?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1548&q=80" width=800>
  
+## Description 
+
+In Earth Science, the scientific community often needs to analyze a large volume of numerical scientific data using tools that facilitates open and reproducible science. 
+
+Python is a widely used, open-source programming language. In Earth science, scientific programming languages like Python, help you speed up and automate lengthy tasks like selecting and downloading large datasets or performing repetitive calculations that you might otherwise have to do manually.
+
+## Learning goals:
+* Describe the main open reproducible science tools (bash, Jupyter Notebooks, Github, …)
+* List the main file formats for Earth Data Science.
+* Identify the main Python libraries used in geospatial Data Science. 
+* Use the Xarray and Zarr libraries to work with multidimensional data structures.
+* Use of the Geopandas library for working with vector data.
+* Use of the rasterio library to work with raster images.
+* Discuss current technologies in Cloud Optimized Data Structures (GeoJSON, Cloud Optimized GeoTIFF (COG), Cloud Optimized Point Clouds (COPC)) and SpatioTemporal Asset Catalog (STAC) catalogues. 
+
+## Topics
+
  * [Introduction to Geospatial Data Science](https://github.com/clizarraga-UAD7/geo-datascience2/blob/main/docs/intro-geo-data-sci.md)
  * [List of General Geo Data Science Applications](https://github.com/clizarraga-UAD7/geo-datascience2/blob/main/docs/geo-ds-reads.md)
  * [Introduction to Xarray](https://github.com/clizarraga-UAD7/geo-datascience2/blob/main/docs/intro-xarray.md)
