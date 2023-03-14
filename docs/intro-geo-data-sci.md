@@ -25,24 +25,49 @@ There is a set of basic general Python libraries that allows us to perform data 
 
 ## Python Libraries for Geospatial Data
 
-There is a collection of available Python Libraries to work with spatially distribuited data. We mention a list of the most relevant ones:
-* [**cartopy**](https://scitools.org.uk/cartopy/docs/latest/index.html). _Cartopy_ is a Python package designed for geospatial data processing in order to produce maps and other geospatial data analyses. Cartopy makes use of the powerful [PROJ]((https://proj.org/)), [NumPy](https://numpy.org) and [Shapely](https://shapely.readthedocs.io/en/stable/) libraries and includes a programmatic interface built on top of [Matplotlib](https://matplotlib.org) for the creation of publication quality maps.
+There is a collection of available Python Libraries to work with spatially distribuited data. We mention a list of the most relevant ones.
+
+### Essential General Python Libraries
+
 * [**dask**](https://www.dask.org). _Dask_ is a flexible library for parallel computing in Python.
-*  [**fiona**](https://fiona.readthedocs.io/en/latest/). _Fiona_ focuses on reading and writing data in standard Python IO style and relies upon familiar Python types and protocols such as files, dictionaries, mappings, and iterators. Fiona can read and write real-world data using multi-layered GIS formats and zipped virtual file systems and integrates readily with other Python GIS packages such as [pyproj](https://pypi.org/project/pyproj/), [Rtree](https://pypi.org/project/Rtree/), and [Shapely](https://shapely.readthedocs.io/en/stable/).
-* [**GDAL**](https://gdal.org/). _GDAL_ is a translator library for [_raster_](https://en.wikipedia.org/wiki/Raster_graphics) and [_vector_](https://en.wikipedia.org/wiki/Vector_graphics) geospatial data formats that is released under an MIT style Open Source License by the [_Open Source Geospatial Foundation_](https://www.osgeo.org/).
-* [**geopandas**](https://geopandas.org/en/stable/). _GeoPandas_ is an open source Python library for working geospatial data. GeoPandas extends the datatypes used by [pandas](https://pandas.pydata.org/) to allow spatial operations on geometric types. Geometric operations are performed by [shapely](https://shapely.readthedocs.io/en/stable/). GeoPandas further depends on [fiona](https://fiona.readthedocs.io/en/latest/) for file access and [matplotlib](https://matplotlib.org/) for data visualization.
 * [**kerchunk**](https://fsspec.github.io/kerchunk/). Kerchunk is a library that provides a unified way to represent a variety of chunked, compressed data formats (e.g. NetCDF/HDF5, GRIB2, TIFF, …), allowing efficient access to the data from traditional file systems or cloud object storage.
 *  [**numba**](https://numba.pydata.org). _Numba_ is an open source [JIT compiler](https://en.wikipedia.org/wiki/Just-in-time_compilation) that translates a subset of Python and NumPy code into fast machine code.
-* [**pyproj**](https://pypi.org/project/pyproj/). Python interface to [_PROJ_](https://proj.org/) (cartographic projections and coordinate transformations library).
 * [**pystac**](https://pystac.readthedocs.io/en/stable/). _PySTAC_ is a library for working with [SpatioTemporal Asset Catalogs (_STAC_)](https://stacspec.org/en).
-* [**rasterio**](https://rasterio.readthedocs.io/en/latest/index.html). _Rasterio_ allows access to geospatial [_raster_](https://en.wikipedia.org/wiki/Raster_graphics) data.
-* [**rasterstats**](https://pythonhosted.org/rasterstats/index.html). _Rasterstats_ is a Python module for summarizing geospatial raster datasets based on vector geometries. It includes functions for zonal statistics and interpolated point queries. The command-line interface allows for easy interoperability with other [_GeoJSON_](https://geojson.org/) tools.
-* [**shapely**](https://shapely.readthedocs.io/en/stable/). _Shapely_ is a BSD-license Python package for manipulation and analysis of planar geometric objects.
 * [**stackstac**](https://pypi.org/project/stackstac/). Load a _STAC_ collection into xarray with dask.
-* [**TorchGeo**](https://github.com/microsoft/torchgeo). [TorchGeo](https://torchgeo.readthedocs.io/en/stable/) is a PyTorch domain library, similar to [torchvision](https://pytorch.org/vision/stable/index.html), providing datasets, samplers, transforms, and pre-trained models specific to geospatial data.
 * [**xarray**](https://docs.xarray.dev/en/stable/index.html). _Xarray_ is an open source project and Python package that introduces labels in the form of dimensions, coordinates, and attributes on top of raw NumPy-like arrays, which allows for more intuitive, more concise, and less error-prone user experience.
 * [**xarray-spatial**](https://xarray-spatial.org). _Xarray-Spatial_ implements common raster analysis functions using Numba and provides an easy-to-install, easy-to-extend codebase for raster analysis.
 * [**zarr**](https://zarr.readthedocs.io/en/stable/). _Zarr_ is a format for the storage of chunked, compressed, N-dimensional arrays.
+### Essential Geospatial Python libraries For Raster Data
+
+* [**GDAL**](https://gdal.org/). _GDAL_ is a translator library for [_raster_](https://en.wikipedia.org/wiki/Raster_graphics) and [_vector_](https://en.wikipedia.org/wiki/Vector_graphics) geospatial data formats that is released under an MIT style Open Source License by the [_Open Source Geospatial Foundation_](https://www.osgeo.org/).
+* [**RasterFrames**](https://rasterframes.io/). _RasterFrames_ brings together Earth-observation (EO) data access, cloud computing, and DataFrame-based data science. The recent explosion of EO data from public and private satellite operators presents both a huge opportunity and a huge challenge to the data analysis community.
+* [**rasterio**](https://rasterio.readthedocs.io/en/latest/index.html). _Rasterio_ allows access to geospatial [_raster_](https://en.wikipedia.org/wiki/Raster_graphics) data.
+* [**rasterstats**](https://pythonhosted.org/rasterstats/index.html). _Rasterstats_ is a Python module for summarizing geospatial raster datasets based on vector geometries. It includes functions for zonal statistics and interpolated point queries. The command-line interface allows for easy interoperability with other [_GeoJSON_](https://geojson.org/) tools.
+* [**RSGISLib**](http://rsgislib.org/about.html).The _Remote Sensing and Geographical Information Systems software Library (RSGISLib)_, contains a number of algorithms for processing and analysing remote sensing data that are the product of research carried out by the authors and their collaborators. 
+
+### Essential Geospatial Python libraries For Vector Data
+
+* [**fiona**](https://fiona.readthedocs.io/en/latest/). _Fiona_ focuses on reading and writing data in standard Python IO style and relies upon familiar Python types and protocols such as files, dictionaries, mappings, and iterators. Fiona can read and write real-world data using multi-layered GIS formats and zipped virtual file systems and integrates readily with other Python GIS packages such as [pyproj](https://pypi.org/project/pyproj/), [Rtree](https://pypi.org/project/Rtree/), and [Shapely](https://shapely.readthedocs.io/en/stable/).
+
+* [**GDAL/OGR**](https://gdal.org/programs/index.html#vector-programs). Several software programs use the GDAL/OGR libraries to allow them to read and write multiple GIS formats.
+* [**geomesa**](https://www.geomesa.org/). GeoMesa is an open source suite of tools that enables large-scale geospatial querying and analytics on distributed computing systems. GeoMesa provides spatio-temporal indexing on top of the Accumulo, HBase, Google Bigtable and Cassandra databases for massive storage of point, line, and polygon data. GeoMesa also provides near real time stream processing of spatio-temporal data by layering spatial semantics on top of Apache Kafka. 
+* [**geopandas**](https://geopandas.org/en/stable/). _GeoPandas_ is an open source Python library for working geospatial data. GeoPandas extends the datatypes used by [pandas](https://pandas.pydata.org/) to allow spatial operations on geometric types. Geometric operations are performed by [shapely](https://shapely.readthedocs.io/en/stable/). GeoPandas further depends on [fiona](https://fiona.readthedocs.io/en/latest/) for file access and [matplotlib](https://matplotlib.org/) for data visualization.
+* [**pyproj**](https://pypi.org/project/pyproj/). Python interface to [_PROJ_](https://proj.org/) (cartographic projections and coordinate transformations library).
+* [**shapely**](https://shapely.readthedocs.io/en/stable/). _Shapely_ is a BSD-license Python package for manipulation and analysis of planar geometric objects. 
+
+### Essential Geospatial Python libraries For Point Clouds
+
+* [**PDAL**](https://pdal.io/en/latest/index.html). _PDAL_ is a C++ library for translating and manipulating [point cloud data](https://en.wikipedia.org/wiki/Point_cloud). It is very much like the [GDAL](https://gdal.org/) library which handles raster and vector data. 
+* [**laspy**](https://laspy.readthedocs.io/en/latest/index.html). [LAS](https://www.asprs.org/divisions-committees/lidar-division/laser-las-file-format-exchange-activities) (and its compressed counterpart LAZ), is a popular format for lidar point cloud and full waveform, _laspy_ reads and writes these formats and provides a Python API via Numpy Arrays.
+* [**numpy**](https://numpy.org). _NumPy_ is the fundamental library for scientific computing in Python. When combined with a reader/writer library like _LasPy_, we can store point cloud data in a NumPy array, as well as filter/process the data. NumPy is also good for general use across the geospatial domain.
+
+### Essential Geospatial Python libraries For Visualization
+
+* [**cartopy**](https://scitools.org.uk/cartopy/docs/latest/index.html). _Cartopy_ is a Python package designed for geospatial data processing in order to produce maps and other geospatial data analyses. Cartopy makes use of the powerful [PROJ]((https://proj.org/)), [NumPy](https://numpy.org) and [Shapely](https://shapely.readthedocs.io/en/stable/) libraries and includes a programmatic interface built on top of [Matplotlib](https://matplotlib.org) for the creation of publication quality maps.
+* [**ipyleaflet**](https://ipyleaflet.readthedocs.io/en/latest/). _ipyleaflet_ creates interactive maps in a Jupyter Notebook. 
+* [**Folium**](https://python-visualization.github.io/folium/). An alternative to _Ipyleaflet_, _Folium_ is also a bridge to `leaflet.js`. The difference between the two is that _Folium_ is built toward static visualizations, whereas _Ipyleaflet_ builds interactive widgets. A useful feature of _Folium_ is that it provides easy functionality to export an interactive map to HTML, making it a useful tool in web development.
+* [**TorchGeo**](https://github.com/microsoft/torchgeo). [TorchGeo](https://torchgeo.readthedocs.io/en/stable/) is a PyTorch domain library, similar to [torchvision](https://pytorch.org/vision/stable/index.html), providing datasets, samplers, transforms, and pre-trained models specific to geospatial data.
+
 
 ***
 
@@ -60,7 +85,7 @@ There is a collection of available Python Libraries to work with spatially distr
 
 ***
 Created: 08/18/2022;
-Updated: 08/22/2022
+Updated: 03/14/2023
 
 Carlos Lizárraga.
 UA Data Science Institute.
