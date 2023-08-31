@@ -21,11 +21,69 @@ The new approach to data sharing, focused on object storage rather than file dow
 ## Cloud Data Types
 
 We will be reviewing the next set of data types
+
+* [Cloud Optimized Point Clouds (COPC)](https://copc.io/)
+* [Zarr](https://zarr.readthedocs.io/en/stable/index.html)
 * [GeoJSON](https://geojson.org/)
 * [Cloud Optimized GeoTiff (COG)](https://www.cogeo.org/)
-* [Cloud Optimized Point Clouds (COPC)](https://copc.io/)
 
 ***
+
+### COPC 
+
+[COPC](https://copc.io/) is a cloud-optimized file format for storing point cloud data. It 
+is based on LAZ 
+format but is optimized for efficient access and processing in the cloud. COPC offers the 
+following features:
+
+- Data is stored in a clustered octree for efficient spatial queries.
+- The file is divided into multiple chunks for parallel loading and processing.
+- HTTP range requests are supported for efficient downloading of only necessary file parts.
+
+COPC is a relatively new format, but it is quickly gaining popularity as a way to store and 
+process point cloud data in the cloud.
+
+Benefits of using COPC:
+
+- Improved performance: COPC files are more efficient to access and process than other point 
+cloud formats like LAS and LAZ.
+- Reduced costs: COPC files are stored and transmitted more efficiently, saving money on 
+cloud storage and bandwidth costs.
+- Increased flexibility: COPC files can be easily processed by various cloud-based tools and 
+applications.
+
+If you are working with point cloud data in the cloud, COPC is a good option to consider. It 
+can help you improve performance, reduce costs, and increase flexibility.
+
+
+### Zarr
+
+[Zarr](https://zarr.readthedocs.io/en/stable/index.html) is a file format for storing 
+multi-dimensional arrays that is optimized for large 
+datasets in cloud computing environments. It is a chunked, hierarchical format that supports 
+compression and versioning. Additionally, it is portable and can be shared among different 
+software applications.
+
+Zarr is an open-source format that stores compressed N-dimensional arrays in chunks. It is 
+designed for use in parallel computing and supports traditional 2D raster API or the newer 
+multidimensional API. Zarr is like NetCDF-4 in capturing and expressing metadata and data, 
+but it is more flexible than Parquet because it allows for chunking along any dimension. 
+Zarr arrays function like NumPy arrays, but the data is divided into chunks and compressed. 
+It provides similar functionality to HDF5 but with additional flexibility. Zarr offers 
+powerful compression options, supports multiple data store backends, and can read/write 
+NumPy arrays in parallel.
+
+Here are some of the benefits of using Zarr:
+
+* Efficient for large datasets
+* Well-suited for cloud computing environments
+* Chunked format
+* Compressed format
+* Hierarchical format
+* Versioning support
+* Portable format
+
+[Zarr Tutorial](https://zarr.readthedocs.io/en/stable/tutorial.html)
 
 ### GeoJSON
 
