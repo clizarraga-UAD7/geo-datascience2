@@ -77,6 +77,8 @@ There is a collection of available Python Libraries to work with spatially distr
 * [Earth Lab](https://www.earthdatascience.org). Resources developed by [Earth Lab at University of Colorado](https://earthlab.colorado.edu), Boulder. The website contains, course lessons and blog posts related to earth data science.
 * [Project Pythia](https://projectpythia.org). An education and training hub for the geoscientific Python community.
 * Ryan Abernathey. [An Introduction to Earth and Environmental Data Science](https://earth-env-data-science.github.io/intro.html).
+* Henrikki Tenkanen, Vuokko Heikinheimo & David Whipp. [Introduction to Python for 
+Geographic Data Analysis](https://pythongis.org/index.html)
 * Michael Dorman. [Introduction to Spatial Data Programming with Python](https://geobgu.xyz/py/index.html).  Department of Geography and Environmental Development, Ben-Gurion University of the Negev.
 *  Dani Arribas-Bel [A course on Geographic Data Science](https://darribas.org/gds_course/content/home.html). University of Liverpool.
 * Henrikki Tenkanen, Vuokko Heikinheimo & David Whipp. [Introduction to Python for Geographic Data Analysis](https://pythongis.org/index.html). 

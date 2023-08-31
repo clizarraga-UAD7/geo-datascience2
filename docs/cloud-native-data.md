@@ -22,10 +22,22 @@ The new approach to data sharing, focused on object storage rather than file dow
 
 We will be reviewing the next set of data types
 
+
+**Cloud Native Raster Data Format**
+
+* [Cloud Optimized GeoTiff (COG)](https://www.cogeo.org/)
+* [Zarr](https://zarr.readthedocs.io/en/stable/index.html)
+
+  
+
+**Cloud Native Vector Data Format**
+
 * [Cloud Optimized Point Clouds (COPC)](https://copc.io/)
 * [Zarr](https://zarr.readthedocs.io/en/stable/index.html)
+* [FlatGeobuf](https://github.com/flatgeobuf/flatgeobuf)
+* [GeoParquet](https://geoparquet.org/)
+* [Cloud Optimized Shapefile](http://blog.cleverelephant.ca/2022/04/coshp.html)
 * [GeoJSON](https://geojson.org/)
-* [Cloud Optimized GeoTiff (COG)](https://www.cogeo.org/)
 
 ***
 
@@ -84,6 +96,76 @@ Here are some of the benefits of using Zarr:
 * Portable format
 
 [Zarr Tutorial](https://zarr.readthedocs.io/en/stable/tutorial.html)
+
+### FlatGeobuf
+
+[FlatGeobuf](https://mapserver.org/input/vector/flatgeobuf.html) is a binary vector data 
+format optimized for streaming and random access. It's 
+becoming popular as a cloud-native alternative to traditional vector formats like Shapefiles 
+and GeoJSON because of its smaller size, faster streaming, and support for random access, 
+which makes it ideal for web maps, mobile apps, search engines, and spatial analysis tools.
+
+FlatGeobuf is a vector data format used by GIS software like QGIS, Mapbox, and GeoServer. 
+It's also supported by the Open Geospatial Consortium (OGC). FlatGeobuf is a powerful and 
+efficient format for cloud-based applications.
+
+FlatGeobuf is a cloud-native vector format with these features:
+
+- Based on the FlatBuffers serialization format to quickly encode data.
+- Supports points, lines, polygons, and multipolygons.
+- Can be spatially indexed for efficient location-based data queries.
+- Gaining traction and supported by more GIS software.
+
+Consider FlatGeobuf for a fast, efficient, and cloud-native vector format that supports 
+random access.
+
+### GeoParquet
+
+[GeoParquet](https://geoparquet.org/) is a columnar geospatial data format based on Apache 
+Parquet. It's great for 
+storing and querying large datasets of vector data in the cloud and has all the advantages 
+of Parquet, such as efficient compression, columnar and nested data support, and statistics 
+support.
+
+GeoParquet adds support for different spatial reference systems, geometric types (points, 
+lines, and polygons), and data encoding formats (such as WKT and WKB) for geospatial data. 
+It is a promising format for storing and querying large geospatial datasets in the cloud, 
+supported by open source and commercial tools and being standardized by the OGC.
+
+Benefits of GeoParquet:
+
+- Efficient storage and querying of large vector datasets.
+- Supported by various open source and commercial tools.
+- Standardized by the OGC.
+- Well-documented.
+
+Consider GeoParquet for large geospatial datasets.
+
+Limitations of GeoParquet:
+
+- Compatibility issues with older tools.
+- Not as widely supported as other formats like GeoJSON and Shapefile.
+
+### Cloud Optimized Shapefile
+
+[Cloud Optimized Shapefile (COG)](http://blog.cleverelephant.ca/2022/04/coshp.html) is a 
+format for storing vector data in the cloud. It is 
+based on the Shapefile format, but it adds a number of features that make it more efficient 
+for cloud storage and processing.
+
+The key features of COG include:
+- Tiled: COG is tiled, which means that the data is divided into smaller files called tiles. 
+This makes it more efficient to read and write the data, as only the tiles that are needed 
+need to be read or written.
+- Compressed: COG is compressed, which reduces the size of the file. This can improve the 
+performance of cloud storage and processing.
+- Indexed: COG is indexed, which allows for efficient retrieval of data. This is done by 
+storing a spatial index of the data, which allows for fast queries that are based on 
+location.
+- Metadata: COG includes metadata about the data, such as the coordinate reference system 
+and the projection. This metadata can be used to interpret the data and to improve the 
+performance of processing algorithms.
+
 
 ### GeoJSON
 
