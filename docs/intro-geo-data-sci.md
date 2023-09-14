@@ -75,6 +75,7 @@ There is a collection of available Python Libraries to work with spatially distr
 ## References
 
 * [Earth Lab](https://www.earthdatascience.org). Resources developed by [Earth Lab at University of Colorado](https://earthlab.colorado.edu), Boulder. The website contains, course lessons and blog posts related to earth data science.
+* [Jupyter Meets the Earth](https://jupytearth.org/index.html). 
 * [Project Pythia](https://projectpythia.org). An education and training hub for the geoscientific Python community.
 * Ryan Abernathey. [An Introduction to Earth and Environmental Data Science](https://earth-env-data-science.github.io/intro.html).
 * Henrikki Tenkanen, Vuokko Heikinheimo & David Whipp. [Introduction to Python for 
