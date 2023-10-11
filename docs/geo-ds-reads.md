@@ -7,6 +7,7 @@ A collection of available online resources
 
 - [ASF HyP3](https://hyp3-docs.asf.alaska.edu/). Alaska Satellite Facility's Hybrid Pluggable Processing Pipeline - Synthetic Aperture Radar.
 - [Pangeo](https://pangeo.io/). A community platform for Big Data geoscience. ([Discourse group](https://discourse.pangeo.io/)).
+- [Google Earth Engine](https://code.earthengine.google.com/)
 - [MS Planetary Computer](https://planetarycomputer.microsoft.com/)
 - [Planet Labs Data Tutorials](https://datainsight.arizona.edu/resources/planet-labs-data). UArizona Institute for Computation and Data-Enabled Insight. 
 - [Project Pythia](https://projectpythia.org/). Education group for the [Pangeo Project](https://pangeo.io/)
