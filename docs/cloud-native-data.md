@@ -253,6 +253,7 @@ To access the STAC Index catalogs, the [`pystac-client`](https://github.com/stac
 ## References
 
 * [Introduction to Cloud Native & Analysis Ready Data Formats](https://tyson-swetnam.github.io/agic-2022/). Tyson L. Swetnam, Carlos Lizárraga.
+* [Cloud-Optimized Geospatial Formats Guide](https://guide.cloudnativegeo.org/). A. Barciauskas, A. Mandel, K. Barron, Z. Deziel. 
 * [Cloud Optimized GeoTIFF ](https://www.cogeo.org). An imagery format for cloud-native geospatial processing. COGEO.org.
 * Gentemann, C. L., Holdgraf, C., Abernathey, R., Crichton, D., Colliander, J., Kearns, E. J., et al. (2021). [Science storms the cloud. AGU Advances, 2, e2020AV000354](https://agupubs.onlinelibrary.wiley.com/doi/epdf/10.1029/2020AV000354)
 * Ryan P. Abernathey _et al._ (2021) [Cloud-Native Repositories for Big Scientific Data. Computing in Science and Engineering. IEEE Computer Society](https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=9354557)
@@ -262,7 +263,7 @@ To access the STAC Index catalogs, the [`pystac-client`](https://github.com/stac
 
 ***
 Created: 08/18/2022;
-Updated: 08/27/2022
+Updated: 10/23/2023
 
 Carlos Lizárraga.
 
