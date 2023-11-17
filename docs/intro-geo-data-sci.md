@@ -72,20 +72,21 @@ There is a collection of available Python Libraries to work with spatially distr
 
 ***
 
-## References
+## Other References
 
+*  [A course on Geographic Data Science](https://darribas.org/gds_course/content/home.html). University of Liverpool. Dani Arribas-Bel.
+*  [An Introduction to Earth and Environmental Data Science](https://earth-env-data-science.github.io/intro.html). Ryan Abernathey.
 * [Earth Lab](https://www.earthdatascience.org). Resources developed by [Earth Lab at University of Colorado](https://earthlab.colorado.edu), Boulder. The website contains, course lessons and blog posts related to earth data science.
+*   [Geographic Data Science with Python](https://geographicdata.science/book/intro.html). Sergio J. Rey, Dani Arribas-Bel, Levi J. Wolf.
+*  [Geospatial Data Science](https://github.com/mszell/geospatialdatascience). Michael Szell. University of Copenhagen.
+*  [Introduction to Python for Geographic Data Analysis](https://pythongis.org/index.html). Henrikki Tenkan
+en, Vuokko Heikinheimo & David Whipp.
+*  [Introduction to Spatial Data Programming with Python](https://geobgu.xyz/py/index.html).  Michael Dorman. Department of Geography and Environmental Development, Ben-Gurion University of the Negev.
 * [Jupyter Meets the Earth](https://jupytearth.org/index.html). 
 * [Project Pythia](https://projectpythia.org). An education and training hub for the geoscientific Python community.
-* Ryan Abernathey. [An Introduction to Earth and Environmental Data Science](https://earth-env-data-science.github.io/intro.html).
-* Henrikki Tenkanen, Vuokko Heikinheimo & David Whipp. [Introduction to Python for 
-Geographic Data Analysis](https://pythongis.org/index.html)
-* Michael Dorman. [Introduction to Spatial Data Programming with Python](https://geobgu.xyz/py/index.html).  Department of Geography and Environmental Development, Ben-Gurion University of the Negev.
-*  Dani Arribas-Bel [A course on Geographic Data Science](https://darribas.org/gds_course/content/home.html). University of Liverpool.
-* Henrikki Tenkanen, Vuokko Heikinheimo & David Whipp. [Introduction to Python for Geographic Data Analysis](https://pythongis.org/index.html). 
-*  Sergio J. Rey, Dani Arribas-Bel, Levi J. Wolf. [Geographic Data Science with Python](https://geographicdata.science/book/intro.html).
-* Michael Szell. [Geospatial Data Science](https://github.com/mszell/geospatialdatascience). University of Copenhagen.
+* [Spatial Data Management](https://geog-414.gishub.org/index.html). Qiusheng Wu. University of Tennessee, Knoxville.
 *  [The Ultimate List of GIS Formats and Geospatial File Extensions](https://gisgeography.com/gis-formats/). GISGeography.
+
 
 ***
 Created: 08/18/2022;
