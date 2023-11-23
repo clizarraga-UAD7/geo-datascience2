@@ -29,14 +29,17 @@ There is a collection of available Python Libraries to work with spatially distr
 
 ### Essential General Python Libraries
 
+* [**arraylake**](https://docs.earthmover.io/). _Arraylake_ is a data lake platform for managing multidimensional arrays and metadata in the cloud. 
 * [**dask**](https://www.dask.org). _Dask_ is a flexible library for parallel computing in Python.
 * [**kerchunk**](https://fsspec.github.io/kerchunk/). Kerchunk is a library that provides a unified way to represent a variety of chunked, compressed data formats (e.g. NetCDF/HDF5, GRIB2, TIFF, …), allowing efficient access to the data from traditional file systems or cloud object storage.
 *  [**numba**](https://numba.pydata.org). _Numba_ is an open source [JIT compiler](https://en.wikipedia.org/wiki/Just-in-time_compilation) that translates a subset of Python and NumPy code into fast machine code.
+* [**pooch**]. _Pooch_ is a data file downloader.  
 * [**pystac**](https://pystac.readthedocs.io/en/stable/). _PySTAC_ is a library for working with [SpatioTemporal Asset Catalogs (_STAC_)](https://stacspec.org/en).
 * [**stackstac**](https://pypi.org/project/stackstac/). Load a _STAC_ collection into xarray with dask.
 * [**xarray**](https://docs.xarray.dev/en/stable/index.html). _Xarray_ is an open source project and Python package that introduces labels in the form of dimensions, coordinates, and attributes on top of raw NumPy-like arrays, which allows for more intuitive, more concise, and less error-prone user experience.
 * [**xarray-spatial**](https://xarray-spatial.org). _Xarray-Spatial_ implements common raster analysis functions using Numba and provides an easy-to-install, easy-to-extend codebase for raster analysis.
 * [**zarr**](https://zarr.readthedocs.io/en/stable/). _Zarr_ is a format for the storage of chunked, compressed, N-dimensional arrays.
+
 ### Essential Geospatial Python libraries For Raster Data
 
 * [**GDAL**](https://gdal.org/). _GDAL_ is a translator library for [_raster_](https://en.wikipedia.org/wiki/Raster_graphics) and [_vector_](https://en.wikipedia.org/wiki/Vector_graphics) geospatial data formats that is released under an MIT style Open Source License by the [_Open Source Geospatial Foundation_](https://www.osgeo.org/).
@@ -69,6 +72,11 @@ There is a collection of available Python Libraries to work with spatially distr
 * [**Folium**](https://python-visualization.github.io/folium/). An alternative to _Ipyleaflet_, _Folium_ is also a bridge to `leaflet.js`. The difference between the two is that _Folium_ is built toward static visualizations, whereas _Ipyleaflet_ builds interactive widgets. A useful feature of _Folium_ is that it provides easy functionality to export an interactive map to HTML, making it a useful tool in web development.
 * [**TorchGeo**](https://github.com/microsoft/torchgeo). [TorchGeo](https://torchgeo.readthedocs.io/en/stable/) is a PyTorch domain library, similar to [torchvision](https://pytorch.org/vision/stable/index.html), providing datasets, samplers, transforms, and pre-trained models specific to geospatial data.
 
+## Spatial Analytics Platforms
+
+* [Apache Sedona](https://sedona.apache.org/1.5.0/)
+* [Earthmover](https://earthmover.io/)
+* [Wherobots](https://wherobots.com/).
 
 ***
 
@@ -90,7 +98,7 @@ en, Vuokko Heikinheimo & David Whipp.
 
 ***
 Created: 08/18/2022;
-Updated: 03/14/2023
+Updated: 11/22/2023
 
 Carlos Lizárraga.
 

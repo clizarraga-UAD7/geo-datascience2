@@ -38,6 +38,7 @@ We will be reviewing the next set of data types
 * [GeoParquet](https://geoparquet.org/)
 * [Cloud Optimized Shapefile](http://blog.cleverelephant.ca/2022/04/coshp.html)
 * [GeoJSON](https://geojson.org/)
+* [PMTiles](https://docs.protomaps.com/pmtiles/).
 
 ***
 
@@ -203,6 +204,15 @@ Where the "type" can be any of the following:
 
 Read more about the [GeoJSON format](https://datatracker.ietf.org/doc/html/rfc7946).
 
+### PMTiles
+
+Single-File Archive Format: PMTiles is designed as a single-file archive format. This means that all the necessary data for rendering maps, including tiles and associated metadata, are stored within a single file. This simplifies storage and distribution.
+
+Tiled Data: PMTiles is specifically designed for pyramids of tiled data. It organizes geospatial data into a hierarchical structure of tiles, allowing for efficient rendering at different zoom levels.
+
+PMTiles from [Protomaps](https://docs.protomaps.com/) is a format designed for efficiently storing and retrieving geospatial data, with a focus on cloud-native applications and support for vector data. Its advantages include efficiency and cloud compatibility.
+
+
 ### COG
 
 The [TIFF file format (Tagged Image File Format)](https://en.wikipedia.org/wiki/TIFF) is a very old format, dating back to 1992, which is great for high-resolution, verbatim [raster images](https://en.wikipedia.org/wiki/Raster_graphics). It’s still used a bit in high-end photography, but has really grown a second life in cartography: a variation called [GeoTIFF](https://en.wikipedia.org/wiki/GeoTIFF) is used to share satellite images and other satellite data.
@@ -229,11 +239,19 @@ The following libraries are needed:
 ### COPC
 
 
+[Cloud Optimized Point Cloud (COPC)](https://copc.io/) data files have several main characteristics and advantages:
 
 
+Organized in a Clustered Octree: COPC files are typically [LAZ 1.4](https://docs.fileformat.com/gis/laz/) files that store point data organized in a clustered octree structure. This organization helps in efficiently managing and accessing point cloud data
+
+Incremental Range-Read Support: One key advantage of COPC is its ability to facilitate incremental "range-read" support over HTTP. This means that you can efficiently stream point cloud data, making it suitable for applications where data needs to be accessed progressively.
+
+Reduced Resolution Access: COPC allows reduced resolution access to data, which can be valuable for applications where high-resolution data is not always necessary, reducing the computational load.
+
+Simplified File Structure: COPC files have an advantage over some other formats like EPT in terms of file structure. Instead of dealing with thousands or millions of individual files in a folder structure, COPC files are more compact and organized, making data management more straightforward.
 
 
-### Spatio Temporal Asset Catalogs (STAC)
+## Spatio Temporal Asset Catalogs (STAC)
 
 
 [STAC](https://stacspec.org/en) provides a common language to describe a range of spatiotemporal information, so that it can be easily indexed and discovered.
@@ -245,8 +263,6 @@ A STAC item is the foundational building block of STAC. It is [GeoJSON](https://
 The [STAC Index](https://stacindex.org) stores STAC Catalogs, Collections, APIs, Software and Tools.
 
 To access the STAC Index catalogs, the [`pystac-client`](https://github.com/stac-utils/pystac-client) libary needs to be installed.
-
-
 
 
 
@@ -262,8 +278,9 @@ To access the STAC Index catalogs, the [`pystac-client`](https://github.com/stac
 * Holmes, C. (2018).[Cloud Native Geoprocessing](https://medium.com/planet-stories/tagged/cloud-native-geospatial). Planet Stories, Medium.
 
 ***
+
 Created: 08/18/2022;
-Updated: 10/23/2023
+Updated: 11/23/2023
 
 Carlos Lizárraga.
 
