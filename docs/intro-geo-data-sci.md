@@ -96,7 +96,7 @@ Geographical Information Systems](https://www.nateko.lu.se/sites/nateko.lu.se.sv
 * [Project Pythia](https://projectpythia.org). An education and training hub for the geoscientific Python community.
 * [Spatial Data Management](https://geog-414.gishub.org/index.html). Qiusheng Wu. University of Tennessee, Knoxville.
 *  [The Ultimate List of GIS Formats and Geospatial File Extensions](https://gisgeography.com/gis-formats/). GISGeography.
-
+*  [Working with Sentinel Data in the Cloud](https://developmentseed.org/blog/2025-07-14-eopf-toolkit/). Emmanuel Mathot.  
 
 ***
 Created: 08/18/2022;
