@@ -66,6 +66,7 @@ There is a collection of available Python Libraries to work with spatially distr
 
 ### Essential Geospatial Python libraries For Visualization
 
+* [**anymap**](https://anymap.dev/). _anymap_ is a Python package for creating interactive maps with anywidget and JavaScript mapping libraries.
 * [**cartopy**](https://scitools.org.uk/cartopy/docs/latest/index.html). _Cartopy_ is a Python package designed for geospatial data processing in order to produce maps and other geospatial data analyses. Cartopy makes use of the powerful [PROJ]((https://proj.org/)), [NumPy](https://numpy.org) and [Shapely](https://shapely.readthedocs.io/en/stable/) libraries and includes a programmatic interface built on top of [Matplotlib](https://matplotlib.org) for the creation of publication quality maps.
 * [**geoplotlib**](https://github.com/andrea-cuttone/geoplotlib). _geoplotlib_ is a Python toolbox for visualizing geographical data and making maps.
 * [**ipyleaflet**](https://ipyleaflet.readthedocs.io/en/latest/). _ipyleaflet_ creates interactive maps in a Jupyter Notebook. 
@@ -100,7 +101,7 @@ Geographical Information Systems](https://www.nateko.lu.se/sites/nateko.lu.se.sv
 
 ***
 Created: 08/18/2022;
-Updated: 11/22/2023
+Updated: 10/24/2025
 
 Carlos Lizárraga.
 
