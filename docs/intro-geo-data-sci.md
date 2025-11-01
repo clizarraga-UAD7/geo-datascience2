@@ -85,8 +85,10 @@ There is a collection of available Python Libraries to work with spatially distr
 
 *  [A course on Geographic Data Science](https://darribas.org/gds_course/content/home.html). University of Liverpool. Dani Arribas-Bel.
 *  [An Introduction to Earth and Environmental Data Science](https://earth-env-data-science.github.io/intro.html). Ryan Abernathey.
+*  [Automating GIS Processes](https://autogis-site.readthedocs.io/en/latest/). Kamyar Hasanzadeh, University of Helsinki.
 * [Earth Lab](https://www.earthdatascience.org). Resources developed by [Earth Lab at University of Colorado](https://earthlab.colorado.edu), Boulder. The website contains, course lessons and blog posts related to earth data science.
-*   [Geographic Data Science with Python](https://geographicdata.science/book/intro.html). Sergio J. Rey, Dani Arribas-Bel, Levi J. Wolf.
+*  [Essentials of Geographic Information Systems](https://open.umn.edu/opentextbooks/textbooks/67). Jonathan Campbell, Michael Shin.
+*  [Geographic Data Science with Python](https://geographicdata.science/book/intro.html). Sergio J. Rey, Dani Arribas-Bel, Levi J. Wolf.
 *  [Geospatial Data Science](https://github.com/mszell/geospatialdatascience). Michael Szell. University of Copenhagen. 
 *  [Introduction to GIS Programming](https://geog-312.gishub.org/). Qiusheng Wu. 
 *  [Introduction to Python for Geographic Data Analysis](https://pythongis.org/index.html). Henrikki Tenkanen, Vuokko Heikinheimo & David Whipp.
@@ -101,7 +103,7 @@ Geographical Information Systems](https://www.nateko.lu.se/sites/nateko.lu.se.sv
 
 ***
 Created: 08/18/2022;
-Updated: 10/24/2025
+Updated: 11/01/2025
 
 Carlos Lizárraga.
 
