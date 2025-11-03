@@ -36,13 +36,13 @@ Python is a widely used, open-source programming language. In Earth science, sci
  * [Data driven decisions in Environmental and Earth Sciences](https://docs.google.com/presentation/d/1iEqEn1BF6Wb9GwYBOXfVKiXJqjHSUGhLvRH9m6kqQQg/edit?usp=sharing)
  
  ## More resources
- * [UA Data Science Workshops](https://github.com/clizarraga-UAD7/Workshops/wiki)
+ * [UA DataLab Workshops](https://ua-datalab.github.io/)
  * [UA Data Science Institute Events Calendar](https://datascience.arizona.edu/calendar)
  * [Digital Learning Resources Library](https://github.com/ua-data7/LearningResources/wiki). Data Science Institute. The University of Arizona.
  
 ***
 
-Updated: 02/08/2023
+Updated: 11/03/2025
 
 Carlos Lizárraga, [Data Lab](https://github.com/clizarraga-UAD7/DataScienceLab/wiki), Data Science Institute, University of Arizona.
 
