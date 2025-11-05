@@ -33,7 +33,8 @@ There is a collection of available Python Libraries to work with spatially distr
 * [**dask**](https://www.dask.org). _Dask_ is a flexible library for parallel computing in Python.
 * [**kerchunk**](https://fsspec.github.io/kerchunk/). Kerchunk is a library that provides a unified way to represent a variety of chunked, compressed data formats (e.g. NetCDF/HDF5, GRIB2, TIFF, …), allowing efficient access to the data from traditional file systems or cloud object storage.
 *  [**numba**](https://numba.pydata.org). _Numba_ is an open source [JIT compiler](https://en.wikipedia.org/wiki/Just-in-time_compilation) that translates a subset of Python and NumPy code into fast machine code.
-* [**pooch**]. _Pooch_ is a data file downloader.  
+* [**pooch**](https://www.fatiando.org/pooch/latest/). _Pooch_ is a Python library that can manage data by downloading files from a server (only when needed) and storing them locally in a data cache (a folder on your computer).
+* [**pygrib**](https://github.com/jswhit/pygrib). _pygrib_ allows you to read and write GRIB files, extract data and metadata, and perform basic operations on the data.
 * [**pystac**](https://pystac.readthedocs.io/en/stable/). _PySTAC_ is a library for working with [SpatioTemporal Asset Catalogs (_STAC_)](https://stacspec.org/en).
 * [**stackstac**](https://pypi.org/project/stackstac/). Load a _STAC_ collection into xarray with dask.
 * [**xarray**](https://docs.xarray.dev/en/stable/index.html). _Xarray_ is an open source project and Python package that introduces labels in the form of dimensions, coordinates, and attributes on top of raw NumPy-like arrays, which allows for more intuitive, more concise, and less error-prone user experience.
