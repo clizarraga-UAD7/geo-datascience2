@@ -39,6 +39,7 @@ There is a collection of available Python Libraries to work with spatially distr
 * [**stackstac**](https://pypi.org/project/stackstac/). Load a _STAC_ collection into xarray with dask.
 * [**xarray**](https://docs.xarray.dev/en/stable/index.html). _Xarray_ is an open source project and Python package that introduces labels in the form of dimensions, coordinates, and attributes on top of raw NumPy-like arrays, which allows for more intuitive, more concise, and less error-prone user experience.
 * [**xarray-spatial**](https://xarray-spatial.org). _Xarray-Spatial_ implements common raster analysis functions using Numba and provides an easy-to-install, easy-to-extend codebase for raster analysis.
+* [**xCDAT (Xarray Climate Data Analysis Tools)**](https://xcdat.readthedocs.io/en/latest/index.html). xCDAT (Xarray Climate Data Analysis Tools) is an extension of xarray for climate data analysis on structured grids. It serves as a modern successor to the Community Data Analysis Tools (CDAT) library.
 * [**zarr**](https://zarr.readthedocs.io/en/stable/). _Zarr_ is a format for the storage of chunked, compressed, N-dimensional arrays.
 
 ### Essential Geospatial Python libraries For Raster Data
@@ -52,7 +53,6 @@ There is a collection of available Python Libraries to work with spatially distr
 ### Essential Geospatial Python libraries For Vector Data
 
 * [**fiona**](https://fiona.readthedocs.io/en/latest/). _Fiona_ focuses on reading and writing data in standard Python IO style and relies upon familiar Python types and protocols such as files, dictionaries, mappings, and iterators. Fiona can read and write real-world data using multi-layered GIS formats and zipped virtual file systems and integrates readily with other Python GIS packages such as [pyproj](https://pypi.org/project/pyproj/), [Rtree](https://pypi.org/project/Rtree/), and [Shapely](https://shapely.readthedocs.io/en/stable/).
-
 * [**GDAL/OGR**](https://gdal.org/programs/index.html#vector-programs). Several software programs use the GDAL/OGR libraries to allow them to read and write multiple GIS formats.
 * [**geomesa**](https://www.geomesa.org/). GeoMesa is an open source suite of tools that enables large-scale geospatial querying and analytics on distributed computing systems. GeoMesa provides spatio-temporal indexing on top of the Accumulo, HBase, Google Bigtable and Cassandra databases for massive storage of point, line, and polygon data. GeoMesa also provides near real time stream processing of spatio-temporal data by layering spatial semantics on top of Apache Kafka. 
 * [**geopandas**](https://geopandas.org/en/stable/). _GeoPandas_ is an open source Python library for working geospatial data. GeoPandas extends the datatypes used by [pandas](https://pandas.pydata.org/) to allow spatial operations on geometric types. Geometric operations are performed by [shapely](https://shapely.readthedocs.io/en/stable/). GeoPandas further depends on [fiona](https://fiona.readthedocs.io/en/latest/) for file access and [matplotlib](https://matplotlib.org/) for data visualization.
@@ -74,6 +74,11 @@ There is a collection of available Python Libraries to work with spatially distr
 * [**ipyleaflet**](https://ipyleaflet.readthedocs.io/en/latest/). _ipyleaflet_ creates interactive maps in a Jupyter Notebook. 
 * [**Folium**](https://python-visualization.github.io/folium/). An alternative to _Ipyleaflet_, _Folium_ is also a bridge to `leaflet.js`. The difference between the two is that _Folium_ is built toward static visualizations, whereas _Ipyleaflet_ builds interactive widgets. A useful feature of _Folium_ is that it provides easy functionality to export an interactive map to HTML, making it a useful tool in web development.
 * [**TorchGeo**](https://github.com/microsoft/torchgeo). [TorchGeo](https://torchgeo.readthedocs.io/en/stable/) is a PyTorch domain library, similar to [torchvision](https://pytorch.org/vision/stable/index.html), providing datasets, samplers, transforms, and pre-trained models specific to geospatial data.
+
+## Geospatial AI/Machine Learning
+
+* [InstaGeo-E2E-Geospatial-ML](https://github.com/instadeepai/InstaGeo-E2E-Geospatial-ML). A python package for end-to-end geospatial machine learning using multispectral earth observation data such as NASA HLS and ESA Sentinel-2.
+* [IntelliGeo](https://www.intelligeo.org/). _IntelliGeo_ is an open source QGIS plugin designed to bring the power of Large Language Models (LLMs) to the QGIS platform, making geospatial analysis more intuitive and efficient.
 
 ## Spatial Analytics Platforms
 
@@ -105,7 +110,7 @@ Geographical Information Systems](https://www.nateko.lu.se/sites/nateko.lu.se.sv
 
 ***
 Created: 08/18/2022;
-Updated: 11/03/2025
+Updated: 12/03/2025
 
 Carlos Lizárraga.
 
