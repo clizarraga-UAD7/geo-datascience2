@@ -14,10 +14,10 @@ A collection of available online resources
 - [OSGeo](https://www.osgeo.org/). The Open Source Geospatial Foundation.
 - [Pangeo](https://pangeo.io/). A community platform for Big Data geoscience. ([Discourse group](https://discourse.pangeo.io/)).
 - [Planet](https://www.planet.com/)
-- [Planet Labs Data Tutorials](https://datainsight.arizona.edu/resources/planet-labs-data). UArizona Institute for Computation and Data-Enabled Insight. 
 - [Project Pythia](https://projectpythia.org/). Education group for the [Pangeo Project](https://pangeo.io/)
 - [Project Pythia: Cookbooks Gallery](https://cookbooks.projectpythia.org/)
 - [Project Pythia: Resources](https://projectpythia.org/resource-gallery.html)
+- [Satellite Data Explorer](https://csdap.earthdata.nasa.gov/). NASA CDSA (Commercial Satellite Data Acquisition Program). 
 - [Sentinel Hub](https://www.sentinel-hub.com/). Sinergise (now owned by Planet).
 
 ## Datasets 
@@ -42,7 +42,7 @@ A collection of available online resources
 
 ****
 Created 11-02-2022; <br>
-Last update: 02-22-2023 <br>
+Last update: 01-30-2026 <br>
 Carlos Lizárraga
 
 <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/4/4b/CC_BY-NC-SA.svg/800px-CC_BY-NC-SA.svg.png?20181117113353" width="150" height="50"/> [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/)
