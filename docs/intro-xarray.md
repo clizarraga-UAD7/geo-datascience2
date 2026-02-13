@@ -398,13 +398,14 @@ ds.attrs
 
 ***
 Created: 08/18/2022;
-Updated: 08/22/2022
+Updated: 02/13/2026
 
 Carlos Lizárraga.
 
-<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/4/4b/CC_BY-NC-SA.svg/800px-CC_BY-NC-SA.svg.png?20181117113353" width="150" height="50"/> [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/)
+<img src="https://upload.wikimedia.org/wikipedia/commons/f/f8/CC_BY-NC-SA_icon_88x31.png"/> [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/)
 
 
-[<img src="https://datascience.arizona.edu/sites/default/files/Data%20Science%20Institute_Webheader%20%281%29.svg" width="256">](https://datascience.arizona.edu)
+<img src="https://responsibleai.arizona.edu/sites/default/files/Responsible-Artificial-Intelligence_WEB_0.png" width=250/> <br> [Arizona Institute for Artificial Intelligence and Society](https://responsibleai.arizona.edu/ai2s)
+
 
 
