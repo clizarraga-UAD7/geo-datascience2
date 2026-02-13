@@ -70,9 +70,12 @@ There is a collection of available Python Libraries to work with spatially distr
 * [**anymap**](https://anymap.dev/). _anymap_ is a Python package for creating interactive maps with anywidget and JavaScript mapping libraries.
 * [**cartopy**](https://scitools.org.uk/cartopy/docs/latest/index.html). _Cartopy_ is a Python package designed for geospatial data processing in order to produce maps and other geospatial data analyses. Cartopy makes use of the powerful [PROJ]((https://proj.org/)), [NumPy](https://numpy.org) and [Shapely](https://shapely.readthedocs.io/en/stable/) libraries and includes a programmatic interface built on top of [Matplotlib](https://matplotlib.org) for the creation of publication quality maps.
 * [**EarthPy**](https://earthpy.readthedocs.io/en/latest/index.html). _EarthPy_ is a python package that makes it easier to plot and work with spatial raster and vector data using open source tools. Earthpy depends upon _geopandas_ which has a focus on vector data and _rasterio_ with facilitates input and output of raster data files. It also requires _matplotlib_ for plotting operations.
+* [**Folium**](https://python-visualization.github.io/folium/). An alternative to _Ipyleaflet_, _Folium_ is also a bridge to `leaflet.js`. The difference between the two is that _Folium_ is built toward static visualizations, whereas _Ipyleaflet_ builds interactive widgets. A useful feature of _Folium_ is that it provides easy functionality to export an interactive map to HTML, making it a useful tool in web development.
 * [**geoplotlib**](https://github.com/andrea-cuttone/geoplotlib). _geoplotlib_ is a Python toolbox for visualizing geographical data and making maps.
 * [**ipyleaflet**](https://ipyleaflet.readthedocs.io/en/latest/). _ipyleaflet_ creates interactive maps in a Jupyter Notebook. 
-* [**Folium**](https://python-visualization.github.io/folium/). An alternative to _Ipyleaflet_, _Folium_ is also a bridge to `leaflet.js`. The difference between the two is that _Folium_ is built toward static visualizations, whereas _Ipyleaflet_ builds interactive widgets. A useful feature of _Folium_ is that it provides easy functionality to export an interactive map to HTML, making it a useful tool in web development.
+* [**Kepler.gl**](https://kepler.gl/). _Kepler.gl_ is a powerful, open-source, web-based geospatial analysis tool designed for visualizing large-scale, location-based datasets. Originally developed by Uber, it runs entirely in the browser using GPU acceleration, allowing users to create, filter, and analyze complex, interactive maps with millions of data points.
+* [**Plotly**](https://plotly.com/python/getting-started/). _Plotly_ is an open-source, browser-based data visualization library for Python, R, and JavaScript that creates interactive, publication-quality, and 3D graphs.
+* * [**Streamlit**](https://streamlit.io/). _Streamlit_ is an open-source Python library designed to help data scientists and AI/ML engineers create, share, and deploy interactive web applications quickly, often in just a few lines of code.
 * [**TorchGeo**](https://github.com/microsoft/torchgeo). [TorchGeo](https://torchgeo.readthedocs.io/en/stable/) is a PyTorch domain library, similar to [torchvision](https://pytorch.org/vision/stable/index.html), providing datasets, samplers, transforms, and pre-trained models specific to geospatial data.
 
 ## Geospatial AI/Machine Learning
@@ -110,7 +113,7 @@ Geographical Information Systems](https://www.nateko.lu.se/sites/nateko.lu.se.sv
 
 ***
 Created: 08/18/2022;
-Updated: 12/03/2025
+Updated: 02/13/2026
 
 Carlos Lizárraga.
 
