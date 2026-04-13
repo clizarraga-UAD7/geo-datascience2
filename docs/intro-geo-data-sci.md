@@ -59,6 +59,10 @@ There is a collection of available Python Libraries to work with spatially distr
 * [**pyproj**](https://pypi.org/project/pyproj/). Python interface to [_PROJ_](https://proj.org/) (cartographic projections and coordinate transformations library).
 * [**shapely**](https://shapely.readthedocs.io/en/stable/). _Shapely_ is a BSD-license Python package for manipulation and analysis of planar geometric objects. 
 
+### Urban data, transportation networks, or city analytics tools
+* [OPenStreetMaps](https://www.openstreetmap.org/#map=5/38.01/-95.84). _OpenStreetMaps_ is a free, editable, and open-source map of the world, built by a global community of volunteers who collect data using GPS, satellite imagery, and local knowledge.
+* [OSMnx](https://osmnx.readthedocs.io/en/stable/). _OSMnx_ is a Python package that allows users to download, model, analyze, and visualize street networks and other geospatial data from OpenStreetMap.
+
 ### Essential Geospatial Python libraries For Point Clouds
 
 * [**PDAL**](https://pdal.io/en/latest/index.html). _PDAL_ is a C++ library for translating and manipulating [point cloud data](https://en.wikipedia.org/wiki/Point_cloud). It is very much like the [GDAL](https://gdal.org/) library which handles raster and vector data. 
@@ -82,6 +86,12 @@ There is a collection of available Python Libraries to work with spatially distr
 
 * [InstaGeo-E2E-Geospatial-ML](https://github.com/instadeepai/InstaGeo-E2E-Geospatial-ML). A python package for end-to-end geospatial machine learning using multispectral earth observation data such as NASA HLS and ESA Sentinel-2.
 * [IntelliGeo](https://www.intelligeo.org/). _IntelliGeo_ is an open source QGIS plugin designed to bring the power of Large Language Models (LLMs) to the QGIS platform, making geospatial analysis more intuitive and efficient.
+
+## Geospatial general performing tools
+
+* [ArcPy](https://www.esri.com/en-us/arcgis/products/arcgis-python-libraries/libraries/arcpy). _ArcPy_ is a comprehensive Python site package used to automate GIS analysis, data conversion, data management, and map automation within ArcGIS software. 
+* [WhiteboxTools](https://www.whiteboxgeo.com/). _WhiteboxTools_ is an open-source, high-performance geospatial data processing library.
+* [QGIS](https://qgis.org/). _QGIS_ (formerly Quantum GIS) is a free, open-source Geographic Information System (GIS) software used for creating, editing, visualizing, and analyzing geospatial data.
 
 ## Spatial Analytics Platforms
 
@@ -112,8 +122,8 @@ Geographical Information Systems](https://www.nateko.lu.se/sites/nateko.lu.se.sv
 *  [Working with Sentinel Data in the Cloud](https://developmentseed.org/blog/2025-07-14-eopf-toolkit/). Emmanuel Mathot.  
 
 ***
-Created: 08/18/2022;
-Updated: 02/13/2026
+Created: 08/18/2022; 
+Updated: 04/13/2026
 
 Carlos Lizárraga.
 
