@@ -60,8 +60,8 @@ There is a collection of available Python Libraries to work with spatially distr
 * [**shapely**](https://shapely.readthedocs.io/en/stable/). _Shapely_ is a BSD-license Python package for manipulation and analysis of planar geometric objects. 
 
 ### Urban data, transportation networks, or city analytics tools
-* [OPenStreetMaps](https://www.openstreetmap.org/#map=5/38.01/-95.84). _OpenStreetMaps_ is a free, editable, and open-source map of the world, built by a global community of volunteers who collect data using GPS, satellite imagery, and local knowledge.
 * [OSMnx](https://osmnx.readthedocs.io/en/stable/). _OSMnx_ is a Python package that allows users to download, model, analyze, and visualize street networks and other geospatial data from OpenStreetMap.
+* [OpenStreetMaps](https://www.openstreetmap.org/#map=5/38.01/-95.84). _OpenStreetMaps_ is a free, editable, and open-source map of the world, built by a global community of volunteers who collect data using GPS, satellite imagery, and local knowledge.
 
 ### Essential Geospatial Python libraries For Point Clouds
 
@@ -89,9 +89,9 @@ There is a collection of available Python Libraries to work with spatially distr
 
 ## Geospatial general performing tools
 
-* [ArcPy](https://www.esri.com/en-us/arcgis/products/arcgis-python-libraries/libraries/arcpy). _ArcPy_ is a comprehensive Python site package used to automate GIS analysis, data conversion, data management, and map automation within ArcGIS software. 
-* [WhiteboxTools](https://www.whiteboxgeo.com/). _WhiteboxTools_ is an open-source, high-performance geospatial data processing library.
+* [ArcPy](https://www.esri.com/en-us/arcgis/products/arcgis-python-libraries/libraries/arcpy). _ArcPy_ is a comprehensive Python site package used to automate GIS analysis, data conversion, data management, and map automation within ArcGIS software.
 * [QGIS](https://qgis.org/). _QGIS_ (formerly Quantum GIS) is a free, open-source Geographic Information System (GIS) software used for creating, editing, visualizing, and analyzing geospatial data.
+* [WhiteboxTools](https://www.whiteboxgeo.com/). _WhiteboxTools_ is an open-source, high-performance geospatial data processing library.
 
 ## Spatial Analytics Platforms
 
@@ -116,6 +116,7 @@ There is a collection of available Python Libraries to work with spatially distr
 Geographical Information Systems](https://www.nateko.lu.se/sites/nateko.lu.se.sv/files/remote_sensing_and_gis_20111212.pdf). Ulrik Mårtensson.
 *  [Introduction to Spatial Data Programming with Python](https://geobgu.xyz/py/index.html).  Michael Dorman. Department of Geography and Environmental Development, Ben-Gurion University of the Negev.
 *  [Jupyter Meets the Earth](https://jupytearth.org/index.html). "Jupyter meets the Earth" is an NSF EarthCube-funded project that bridges the gap between sophisticated geoscience research and modern interactive computing.
+*  [Opengeos](https://github.com/opengeos). The _Open Geospatial Solutions (opengeos)_ GitHub organization hosts a collection of open-source geospatial software projects.
 *  [Project Pythia](https://projectpythia.org). An education and training hub for the geoscientific Python community.
 *  [Spatial Data Management](https://geog-414.gishub.org/index.html). Qiusheng Wu. University of Tennessee, Knoxville.
 *  [The Ultimate List of GIS Formats and Geospatial File Extensions](https://gisgeography.com/gis-formats/). GISGeography.
