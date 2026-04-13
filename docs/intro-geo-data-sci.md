@@ -79,7 +79,7 @@ There is a collection of available Python Libraries to work with spatially distr
 * [**ipyleaflet**](https://ipyleaflet.readthedocs.io/en/latest/). _ipyleaflet_ creates interactive maps in a Jupyter Notebook. 
 * [**Kepler.gl**](https://kepler.gl/). _Kepler.gl_ is a powerful, open-source, web-based geospatial analysis tool designed for visualizing large-scale, location-based datasets. Originally developed by Uber, it runs entirely in the browser using GPU acceleration, allowing users to create, filter, and analyze complex, interactive maps with millions of data points.
 * [**Plotly**](https://plotly.com/python/getting-started/). _Plotly_ is an open-source, browser-based data visualization library for Python, R, and JavaScript that creates interactive, publication-quality, and 3D graphs.
-* * [**Streamlit**](https://streamlit.io/). _Streamlit_ is an open-source Python library designed to help data scientists and AI/ML engineers create, share, and deploy interactive web applications quickly, often in just a few lines of code.
+* [**Streamlit**](https://streamlit.io/). _Streamlit_ is an open-source Python library designed to help data scientists and AI/ML engineers create, share, and deploy interactive web applications quickly, often in just a few lines of code.
 * [**TorchGeo**](https://github.com/microsoft/torchgeo). [TorchGeo](https://torchgeo.readthedocs.io/en/stable/) is a PyTorch domain library, similar to [torchvision](https://pytorch.org/vision/stable/index.html), providing datasets, samplers, transforms, and pre-trained models specific to geospatial data.
 
 ## Geospatial AI/Machine Learning
