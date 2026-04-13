@@ -112,12 +112,12 @@ There is a collection of available Python Libraries to work with spatially distr
 *  [Geospatial Data Science](https://github.com/mszell/geospatialdatascience). Michael Szell. University of Copenhagen. 
 *  [Introduction to GIS Programming](https://geog-312.gishub.org/). Qiusheng Wu. 
 *  [Introduction to Python for Geographic Data Analysis](https://pythongis.org/index.html). Henrikki Tenkanen, Vuokko Heikinheimo & David Whipp.
-*   [Introduction to Remote Sensing and
+*  [Introduction to Remote Sensing and
 Geographical Information Systems](https://www.nateko.lu.se/sites/nateko.lu.se.sv/files/remote_sensing_and_gis_20111212.pdf). Ulrik Mårtensson.
 *  [Introduction to Spatial Data Programming with Python](https://geobgu.xyz/py/index.html).  Michael Dorman. Department of Geography and Environmental Development, Ben-Gurion University of the Negev.
-* [Jupyter Meets the Earth](https://jupytearth.org/index.html). 
-* [Project Pythia](https://projectpythia.org). An education and training hub for the geoscientific Python community.
-* [Spatial Data Management](https://geog-414.gishub.org/index.html). Qiusheng Wu. University of Tennessee, Knoxville.
+*  [Jupyter Meets the Earth](https://jupytearth.org/index.html). "Jupyter meets the Earth" is an NSF EarthCube-funded project that bridges the gap between sophisticated geoscience research and modern interactive computing.
+*  [Project Pythia](https://projectpythia.org). An education and training hub for the geoscientific Python community.
+*  [Spatial Data Management](https://geog-414.gishub.org/index.html). Qiusheng Wu. University of Tennessee, Knoxville.
 *  [The Ultimate List of GIS Formats and Geospatial File Extensions](https://gisgeography.com/gis-formats/). GISGeography.
 *  [Working with Sentinel Data in the Cloud](https://developmentseed.org/blog/2025-07-14-eopf-toolkit/). Emmanuel Mathot.  
 
